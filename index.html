@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oceanography & Hydrography Portfolio</title>
+    <title>Firly.dev</title>
+    <link rel="icon" type="image/x-icon" href="assets/terminal-solid.png" class="">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/6ac02d3014.js" crossorigin="anonymous"></script>
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans">
 
     <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
         <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-            <span class="font-bold text-xl text-blue-700">Portfolio.</span>
+            <a href="#"><span class="font-bold text-xl text-blue-700">Firly.dev</span></a>
             <div class="space-x-6 text-sm font-medium">
                 <a href="#about" class="hover:text-blue-600 transition">About</a>
                 <a href="#skills" class="hover:text-blue-600 transition">Skills</a>
@@ -23,19 +24,18 @@
 
     <header id="about" class="max-w-5xl mx-auto px-6 py-20 lg:py-32">
         <div class="max-w-3xl">
-            <h2 class="text-blue-600 font-semibold mb-2">Oceanography</h2>
             <h1 class="text-5xl md:text-6xl font-bold mb-6 text-slate-900 leading-tight">
                 Visualizing the <span class="text-blue-700 underline decoration-blue-200">Dynamics</span> of our Oceans.
             </h1>
-            <p class="text-xl text-slate-600 mb-8 leading-relaxed">
-                Undergraduate Oceanography student at ITB, specializing in Computational Oceanography. I build tools to analyze MetOcean data and bridge the gap between physical science and web-based GIS.
+            <p class="text-xl text-slate-600 mb-8 leading-relaxed text-justify">
+                Final-year Oceanography student at ITB specializing in the intersection of Marine Science and Geoinformatics. I build data-driven WebGIS solutions using Python, Django, and PostGIS to solve real-world spatial challenges. Experienced in hydrographic surveying and dedicated to developing innovative digital mapping tools
             </p>
             <div class="flex gap-4">
-                <a href="https://github.com" class="flex items-center gap-2 bg-slate-900 text-white px-6 py-3 rounded-lg hover:bg-slate-800 transition">
+                <a href="https://github.com/firlyhafizs" class="flex items-center gap-2 bg-slate-900 text-white px-6 py-3 rounded-lg hover:bg-slate-800 transition">
                     <i class="fab fa-github"></i> GitHub
                 </a>
-                <a href="#" class="flex items-center gap-2 border border-slate-300 px-6 py-3 rounded-lg hover:bg-slate-100 transition">
-                    <i class="fas fa-file-pdf"></i> Download CV
+                <a href="https://drive.google.com/file/d/1OcT784U-14RSDoDUtn13OOwPHEeK8dfT/view?usp=drive_link" class="flex items-center gap-2 border border-slate-300 px-6 py-3 rounded-lg hover:bg-slate-100 transition">
+                    <i class="fas fa-file-pdf"></i> View CV
                 </a>
             </div>
         </div>
@@ -43,29 +43,45 @@
 
     <section id="skills" class="bg-white py-20">
         <div class="max-w-5xl mx-auto px-6">
-            <h2 class="text-3xl font-bold mb-12">Technical Toolkit</h2>
+            <h2 class="text-3xl font-bold mb-12 text-slate-900">Technical Toolkit</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="p-6 rounded-2xl bg-blue-50 border border-blue-100">
-                    <div class="w-12 h-12 bg-blue-600 text-white flex items-center justify-center rounded-xl mb-4">
-                        <i class="fas fa-chart-line"></i>
+                
+                <div class="p-8 rounded-2xl bg-blue-50 border border-blue-100 flex flex-col h-full">
+                    <div class="w-12 h-12 bg-blue-600 text-white flex items-center justify-center rounded-xl mb-6">
+                        <i class="fas fa-chart-line text-xl"></i>
                     </div>
-                    <h3 class="font-bold text-xl mb-2">Data & Computation</h3>
-                    <p class="text-slate-600 text-sm">Python (NumPy, Xarray, Pandas), MATLAB, Fortran. Specialized in Numerical Methods and Hydrodynamics.</p>
+                    <h3 class="font-bold text-xl mb-4 text-slate-900">Data & Computation</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4 text-justify">
+                        Python (Advanced: NumPy, Pandas, Xarray, Geopandas), MATLAB, and Fortran.
+                    </p>
+                    <p class="text-slate-500 text-xs italic">
+                        Specialized in Numerical Methods, Hydrodynamics, and SWAN Ocean Modelling.
+                    </p>
                 </div>
-                <div class="p-6 rounded-2xl bg-teal-50 border border-teal-100">
-                    <div class="w-12 h-12 bg-teal-600 text-white flex items-center justify-center rounded-xl mb-4">
-                        <i class="fas fa-code"></i>
+
+                <div class="p-8 rounded-2xl bg-emerald-50 border border-emerald-100 flex flex-col h-full">
+                    <div class="w-12 h-12 bg-emerald-600 text-white flex items-center justify-center rounded-xl mb-6">
+                        <i class="fas fa-code text-xl"></i>
                     </div>
-                    <h3 class="font-bold text-xl mb-2">WebGIS & Fullstack</h3>
-                    <p class="text-slate-600 text-sm">Django, Tailwind CSS, Leaflet.js, and PostGIS for spatial data visualization.</p>
+                    <h3 class="font-bold text-xl mb-4 text-slate-900">WebGIS & Fullstack</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4 text-justify">
+                        Django, Tailwind CSS, JavaScript (Leaflet.js, Alpine.js), HTMX, and PostGIS.
+                    </p>
+                    <p class="text-slate-500 text-xs italic">
+                        Experienced in ArcGIS, Linux Environments, and spatial data visualization.
+                    </p>
                 </div>
-                <div class="p-6 rounded-2xl bg-purple-50 border border-purple-100">
-                    <div class="w-12 h-12 bg-purple-600 text-white flex items-center justify-center rounded-xl mb-4">
-                        <i class="fas fa-graduation-cap"></i>
+
+                <div class="p-8 rounded-2xl bg-purple-50 border border-purple-100 flex flex-col h-full">
+                    <div class="w-12 h-12 bg-purple-600 text-white flex items-center justify-center rounded-xl mb-6">
+                        <i class="fas fa-graduation-cap text-xl"></i>
                     </div>
-                    <h3 class="font-bold text-xl mb-2">Academic Leadership</h3>
-                    <p class="text-slate-600 text-sm">Teaching Assistant for Fluid Mechanics, Ocean Tides, and Computational Thinking.</p>
+                    <h3 class="font-bold text-xl mb-4 text-slate-900">Academic Leadership</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4 text-justify">
+                        Teaching Assistant for Fluid Mechanics, Ocean Tides, Numerical Methods, and Computational Thinking.
+                    </p>
                 </div>
+
             </div>
         </div>
     </section>
@@ -76,11 +92,11 @@
             <div class="group">
                 <div class="bg-slate-200 aspect-video rounded-2xl mb-4 overflow-hidden">
                     <div class="w-full h-full flex items-center justify-center text-slate-400 group-hover:scale-105 transition duration-500">
-                        <i class="fas fa-map-marked-alt text-6xl"></i>
+                        <img src="assets/glb-screenshot.png" alt="Cuplikan dari halaman WebGIS Geoportal Laut Berkah">
                     </div>
                 </div>
-                <h3 class="font-bold text-2xl mb-2">MetOcean WebGIS Application</h3>
-                <p class="text-slate-600 mb-4">A spatiotemporal visualization tool built with Django and Leaflet.js to analyze meteorological and oceanographic data.</p>
+                <h3 class="font-bold text-2xl mb-2">Geoportal Laut Berkah's WebGIS</h3>
+                <p class="text-slate-600 mb-4">A spatiotemporal visualization tool built with Django and Leaflet.js to analyze geospatial and oceanographic data.</p>
                 <div class="flex gap-2">
                     <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-semibold">Django</span>
                     <span class="px-3 py-1 bg-slate-100 rounded-full text-xs font-semibold">PostGIS</span>
@@ -93,11 +109,12 @@
     <footer id="contact" class="bg-slate-900 text-white py-20">
         <div class="max-w-5xl mx-auto px-6 text-center">
             <h2 class="text-3xl font-bold mb-4">Let's Connect</h2>
-            <p class="text-slate-400 mb-8 max-w-md mx-auto">Open for collaborations in Hydrography, Geomatics, or Marine Data Science.</p>
+            <p class="text-slate-400 mb-8 max-w-lg mx-auto">Open for collaborations in Marine Data Science and Web Development.</p>
             <div class="flex justify-center gap-6">
-                <a href="#" class="text-2xl hover:text-blue-400 transition"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="text-2xl hover:text-blue-400 transition"><i class="fab fa-github"></i></a>
-                <a href="mailto:email@example.com" class="text-2xl hover:text-blue-400 transition"><i class="fas fa-envelope"></i></a>
+                <a href="https://linkedin.com/in/firlyhafizs" class="text-2xl hover:text-blue-400 transition"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/firlyhafizs" class="text-2xl hover:text-blue-400 transition"><i class="fab fa-github"></i></a>
+                <a href="mailto:firlyhafizsyahreza42@gmail.com" class="text-2xl hover:text-blue-400 transition"><i class="fas fa-envelope"></i></a>
+                <a href="https://instagram.com/firlyhafizs" class="text-2xl hover:text-blue-400 transition"><i class="fa fa-instagram"></i></a>
             </div>
             <p class="mt-12 text-slate-500 text-sm">© 2026 | ITB Oceanography</p>
         </div>
